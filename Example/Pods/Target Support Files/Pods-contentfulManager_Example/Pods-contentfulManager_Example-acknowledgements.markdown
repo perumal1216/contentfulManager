@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## contentfulManager
 
-Copyright (c) 2019 Perumal1216 <dperumal@aligntech.com>
+Copyright (c) 2019 Perumal1216 <Perumal1216@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

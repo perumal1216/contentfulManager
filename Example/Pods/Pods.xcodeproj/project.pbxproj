@@ -12,7 +12,8 @@
 		44EECF5794EA4124955B5C88EF6285E3 /* contentfulManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F1964D622B6A95711DFC738A842121 /* contentfulManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		468AAFA330A6D394A6A1B54DBB3E6A1E /* Pods-contentfulManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 121A98F6684DF164990CA7942478387D /* Pods-contentfulManager_Tests-dummy.m */; };
 		65401107900C7986E06FE545D4573DF3 /* Pods-contentfulManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA37A30A9CA9EE77C145E7936CA56BF0 /* Pods-contentfulManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DA6338CD8C35E54A3BEF7608A07993A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A727924A4ADD9F0CB2D9607B023642 /* ReplaceMe.swift */; };
+		B43F2A7F2344E72B005302EE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F2A7D2344E72B005302EE /* LoginVC.swift */; };
+		B43F2A802344E72B005302EE /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F2A7E2344E72B005302EE /* Sample.swift */; };
 		C44AFC4D3B1EF374433695545C5FF85D /* Pods-contentfulManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F99424F51F22B0EE4BAB51E82382C0 /* Pods-contentfulManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D529F7D3DA3EC1F9E6A6AB8685BC28A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		DEF14D903651A5382CBC503E191D770B /* Pods-contentfulManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6962443AFCAC5371C036B28E513340 /* Pods-contentfulManager_Example-dummy.m */; };
@@ -47,24 +48,25 @@
 		518DB1E8492D231A98E4F0A3C470A566 /* Pods-contentfulManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-contentfulManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6042130EF4194A377CFCA47D7E8F070C /* Pods-contentfulManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-contentfulManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		645847D15E74F14FB0E0B6F8C4C07D26 /* contentfulManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "contentfulManager-dummy.m"; sourceTree = "<group>"; };
-		68342D2D8AC9B5260871F2B1BA50CC7F /* Pods_contentfulManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_contentfulManager_Tests.framework; path = "Pods-contentfulManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BB271C799EFEFD67B3AA17F458C5A43 /* Pods_contentfulManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_contentfulManager_Example.framework; path = "Pods-contentfulManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68342D2D8AC9B5260871F2B1BA50CC7F /* Pods_contentfulManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contentfulManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB271C799EFEFD67B3AA17F458C5A43 /* Pods_contentfulManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contentfulManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB1DD1ADAE90532C1E9120A6E8A6D52 /* Pods-contentfulManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-contentfulManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7F7089E9010915D11098FA01ED4653B1 /* contentfulManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "contentfulManager-Info.plist"; sourceTree = "<group>"; };
 		82D1F27077B187ABD0443589FF5EC6C7 /* Pods-contentfulManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-contentfulManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		98EABEA46A0585319A48871F39052BDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9A8BDFE213BB2E3C49F75FB27086E6EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98EABEA46A0585319A48871F39052BDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9A8BDFE213BB2E3C49F75FB27086E6EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B43F2A7D2344E72B005302EE /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B43F2A7E2344E72B005302EE /* Sample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
 		B7FD782DA34D711F104C0B9A6C3AA5A3 /* Pods-contentfulManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-contentfulManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD64B172EF98A0983FFD8606A710A8BB /* contentfulManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "contentfulManager-prefix.pch"; sourceTree = "<group>"; };
 		BE6962443AFCAC5371C036B28E513340 /* Pods-contentfulManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-contentfulManager_Example-dummy.m"; sourceTree = "<group>"; };
-		C00AFE21C030415B779118569EB2E0A3 /* contentfulManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = contentfulManager.framework; path = contentfulManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00AFE21C030415B779118569EB2E0A3 /* contentfulManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = contentfulManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F1964D622B6A95711DFC738A842121 /* contentfulManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "contentfulManager-umbrella.h"; sourceTree = "<group>"; };
-		D3A727924A4ADD9F0CB2D9607B023642 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = contentfulManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E7249E14DDB6914C8BBBD6FD0FFDEF6D /* Pods-contentfulManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-contentfulManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E8F99424F51F22B0EE4BAB51E82382C0 /* Pods-contentfulManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-contentfulManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		EA37A30A9CA9EE77C145E7936CA56BF0 /* Pods-contentfulManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-contentfulManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EC9254515C4D36F4709C6F10F7D75A0A /* contentfulManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = contentfulManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC9254515C4D36F4709C6F10F7D75A0A /* contentfulManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = contentfulManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ECBFE78BCEA7218DD9963E839A5C968C /* Pods-contentfulManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-contentfulManager_Example.modulemap"; sourceTree = "<group>"; };
 		EED74817DA5F1D939FCB9A401FE34BF7 /* Pods-contentfulManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-contentfulManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F378BB033792AB21474171D5F204744C /* Pods-contentfulManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-contentfulManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,7 +114,7 @@
 		5A07DED08A15EBF21DDB485F7FCCC255 /* contentfulManager */ = {
 			isa = PBXGroup;
 			children = (
-				D3A727924A4ADD9F0CB2D9607B023642 /* ReplaceMe.swift */,
+				B43F2A7C2344E6EC005302EE /* Source */,
 				80034E1D326BCB5BFF0926BE8E9793E9 /* Pod */,
 				73FB7A1C7F9BB4D0A6A8A013DA05C6D5 /* Support Files */,
 			);
@@ -184,6 +186,15 @@
 				6E6223A5A0AC37EF8950E327B775CC1B /* Pods-contentfulManager_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B43F2A7C2344E6EC005302EE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B43F2A7D2344E72B005302EE /* LoginVC.swift */,
+				B43F2A7E2344E72B005302EE /* Sample.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -315,6 +326,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					3FFB8C034C46EE1293B9D2F257A0BFC8 = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,8 +380,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43F2A7F2344E72B005302EE /* LoginVC.swift in Sources */,
+				B43F2A802344E72B005302EE /* Sample.swift in Sources */,
 				F04966C456CCCC4FB444CDA6F844AD3F /* contentfulManager-dummy.m in Sources */,
-				6DA6338CD8C35E54A3BEF7608A07993A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +436,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-contentfulManager_Tests/Pods-contentfulManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-contentfulManager_Tests/Pods-contentfulManager_Tests.modulemap";
@@ -441,6 +458,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4420A741D5695E4B4E7740167AD5A2F2 /* contentfulManager.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -453,7 +471,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/contentfulManager/contentfulManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/contentfulManager/contentfulManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/contentfulManager/contentfulManager.modulemap";
 				PRODUCT_MODULE_NAME = contentfulManager;
@@ -485,7 +503,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-contentfulManager_Example/Pods-contentfulManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-contentfulManager_Example/Pods-contentfulManager_Example.modulemap";
@@ -518,7 +536,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-contentfulManager_Tests/Pods-contentfulManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-contentfulManager_Tests/Pods-contentfulManager_Tests.modulemap";
@@ -583,13 +601,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -646,7 +663,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -663,6 +680,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4420A741D5695E4B4E7740167AD5A2F2 /* contentfulManager.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -675,7 +693,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/contentfulManager/contentfulManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/contentfulManager/contentfulManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/contentfulManager/contentfulManager.modulemap";
 				PRODUCT_MODULE_NAME = contentfulManager;
@@ -683,6 +701,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -706,7 +725,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-contentfulManager_Example/Pods-contentfulManager_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-contentfulManager_Example/Pods-contentfulManager_Example.modulemap";

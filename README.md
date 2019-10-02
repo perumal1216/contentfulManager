@@ -22,7 +22,7 @@ pod 'contentfulManager'
 
 ## Author
 
-Perumal1216, dperumal@aligntech.com
+Perumal1216, Perumal1216@gmail.com
 
 ## License
 

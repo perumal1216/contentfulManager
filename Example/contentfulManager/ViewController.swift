@@ -7,12 +7,16 @@
 //
 
 import UIKit
-
+import contentfulManager
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+       // imag.circleImageView(borderColor: UIColor.red, borderWidth:2)
+        let obh = AddClass()
+        print("values=====\(obh.awesomeFunction(a: 10, b: 20))")
+        let vc = LoginVC()
     }
 
     override func didReceiveMemoryWarning() {
