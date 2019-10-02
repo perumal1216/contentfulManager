@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0','CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.ios.deployment_target = '10.0'
-  
+  s.swift_version = '4.0'
   s.source_files = 'Source/**/*.{swift}'
   
   # s.resource_bundles = {
