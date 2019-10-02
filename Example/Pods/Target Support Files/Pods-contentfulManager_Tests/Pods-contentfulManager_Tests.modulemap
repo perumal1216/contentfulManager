@@ -1,0 +1,6 @@
+framework module Pods_contentfulManager_Tests {
+  umbrella header "Pods-contentfulManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

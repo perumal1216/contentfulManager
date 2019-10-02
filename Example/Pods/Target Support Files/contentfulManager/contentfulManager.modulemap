@@ -1,0 +1,6 @@
+framework module contentfulManager {
+  umbrella header "contentfulManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

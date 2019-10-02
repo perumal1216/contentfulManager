@@ -1,0 +1,22 @@
+{
+  "name": "contentfulManager",
+  "version": "0.1.0",
+  "summary": "A short description of contentfulManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Perumal1216/contentfulManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Perumal1216": "dperumal@aligntech.com"
+  },
+  "source": {
+    "git": "https://github.com/Perumal1216/contentfulManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "contentfulManager/Classes/**/*"
+}

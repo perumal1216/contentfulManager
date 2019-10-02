@@ -1,0 +1,16 @@
+PODS:
+  - contentfulManager (0.1.0)
+
+DEPENDENCIES:
+  - contentfulManager (from `../`)
+
+EXTERNAL SOURCES:
+  contentfulManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  contentfulManager: 62b50c6b951a08385fdceeba1b9f918e7c86d5a9
+
+PODFILE CHECKSUM: a3291583fdb1c5b17272b3675d61b1f0d0f664f4
+
+COCOAPODS: 1.6.1
