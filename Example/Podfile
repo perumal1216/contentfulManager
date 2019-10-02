@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'contentfulManager_Example' do
+  pod 'contentfulManager', :path => '../'
+
+  target 'contentfulManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
